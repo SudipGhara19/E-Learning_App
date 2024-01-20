@@ -4,6 +4,7 @@ import Courses from "./pages/app/courses/Courses";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorToast from "./components/error-toast/ErrorToast";
 import Details from "./pages/app/details/Details"
+import Learn from "./pages/app/learn/Learn";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,7 @@ function App() {
             {path: ":courseId", element: <Details/>}
           ],
         },
+        {path: "/learn/:courseId", element: <Learn/>}
       ],
     },
   ])
