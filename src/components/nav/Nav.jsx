@@ -11,11 +11,11 @@ function Nav() {
           <Link to="/">
             <img
               className={style.logo}
-              src="https://files.codingninjas.in/pl-ninja-16706.svg"
+              src="Untitled-1.png"
               alt="logo"
             />
           </Link>
-          <h4>Coding Ninjas</h4>
+          <h4>CodeGenius</h4>
         </div>
         <div className={style.nav_details}>
           <button>

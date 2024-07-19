@@ -14,7 +14,6 @@ function Chapter() {
       <br />
       <br />
       <div className={styles.videos}>
-        {/*TASK:5 CHAPTER VIDEO SRC SHOULD BE GIVEN IN THE SOURCE */}
         <iframe
           width="800"
           height="560"
